@@ -45,3 +45,6 @@
 5. **License:**
    - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 query structure example : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Elon+Musk&language=en&limit=30&continue=0&format=json&uselang=en&type=item
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
