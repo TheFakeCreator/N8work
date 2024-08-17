@@ -20,10 +20,11 @@
    - cd N8work
 
 2. **Install Dependencies:**
-   - npm install
+   - `npm install`
 
 3. **Run The Application:**
-   - npm start
+   - `npm run dev`
+   - to run in the console `node main.js`
 
 4. **Usage:**
   - Navigate the Network: Click on nodes to focus on them, and explore how other entities are connected.
@@ -33,11 +34,11 @@
 5. **Contributing:**
    We welcome contributions! If you'd like to help improve N8work, please follow these steps:
 
-  - Fork the repository.
+   - Fork the repository.
    - Create a new branch (`git checkout -b feature/your-feature`).
-  - Commit your changes (`git commit -m 'Add some feature'`).
-  - Push to the branch (`git push origin feature/your-feature`).
-  - Open a Pull Request.
+   - Commit your changes (`git commit -m 'Add some feature'`).
+   - Push to the branch (`git push origin feature/your-feature`).
+   - Open a Pull Request.
 
 5. **License:**
    - This project is licensed under the MIT License - see the [LICENSE]() file for details.
