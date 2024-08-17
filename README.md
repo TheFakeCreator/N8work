@@ -42,4 +42,4 @@
 
 5. **License:**
    - This project is licensed under the MIT License - see the [LICENSE]() file for details.
-
+query structure example : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Elon+Musk&language=en&limit=30&continue=0&format=json&uselang=en&type=item
