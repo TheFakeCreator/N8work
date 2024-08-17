@@ -1,6 +1,10 @@
 # N8work
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)<br>
+<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a><br>
+
+
+
 
 **N8work** is an open-source web-based application that visualizes relationships between various entities in the form of a dynamic network. Each entity is represented as a bubble, and the size of the bubble indicates how closely it is related to the focused entity. The app allows users to explore complex networks and understand connections intuitively.
 
@@ -48,3 +52,5 @@ query structure example : https://www.wikidata.org/w/api.php?action=wbsearchenti
 ## Code of Conduct
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+This site is powered by [Netlify](https://www.netlify.com).
+
