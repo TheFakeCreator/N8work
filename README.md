@@ -17,16 +17,16 @@
 
 ## Installation
 
-1. **Clone the repository:**
-   - git clone https://github.com/your-username/N8work.git
-   - cd N8work
+1. **Clone the repository:**<br>
+   `git clone https://github.com/your-username/N8work.git`<br>
+   `cd N8work`
 
-2. **Install Dependencies:**
-   - `npm install`
+2. **Install Dependencies:**<br>
+   `npm install`
 
-3. **Run The Application:**
-   - `npm run dev`
-   - to run in the console `node main.js`
+3. **Run The Application:**<br>
+   `npm run dev`<br>
+   to run in the console `node main.js`
 
 4. **Usage:**
   - Navigate the Network: Click on nodes to focus on them, and explore how other entities are connected.
@@ -37,9 +37,9 @@
    We welcome contributions! If you'd like to help improve N8work, please follow these steps:
 
    - Fork the repository.
-   - Create a new branch (`git checkout -b feature/your-feature`).
-   - Commit your changes (`git commit -m 'Add some feature'`).
-   - Push to the branch (`git push origin feature/your-feature`).
+   - Create a new branch<br> `git checkout -b feature/your-feature`
+   - Commit your changes<br> `git commit -m 'Add some feature'`
+   - Push to the branch<br> `git push origin feature/your-feature`
    - Open a Pull Request.
 
 5. **License:**
