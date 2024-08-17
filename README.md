@@ -1,5 +1,7 @@
 # N8work
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 **N8work** is an open-source web-based application that visualizes relationships between various entities in the form of a dynamic network. Each entity is represented as a bubble, and the size of the bubble indicates how closely it is related to the focused entity. The app allows users to explore complex networks and understand connections intuitively.
 
 ## Features
@@ -41,5 +43,5 @@
    - Open a Pull Request.
 
 5. **License:**
-   - This project is licensed under the MIT License - see the [LICENSE]() file for details.
+   - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 query structure example : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Elon+Musk&language=en&limit=30&continue=0&format=json&uselang=en&type=item
