@@ -7,7 +7,7 @@
 }
 
 html{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #app{
@@ -69,5 +69,13 @@ nav .search-bar button{
 }
 
 footer{
+  display: flex;
   background-color: #dfdfdf;
+  width: 100vw;
+}
+
+.netlify{
+  margin-left: 10px;
+  margin-top: 10px;
+  justify-self: flex-end;
 }
