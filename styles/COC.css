@@ -1,0 +1,32 @@
+.coc-cont{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.coc-cont h1{
+    align-self: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.coc-cont h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.coc-cont p{
+    margin-bottom: 10px;
+}
+
+.coc-cont a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: 500;
+}
