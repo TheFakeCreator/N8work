@@ -1,3 +1,10 @@
+:root{
+  --header-height: 80px;
+  --primary-color: black;
+  --second-color:white;
+  --accent-color: rgb(231, 231, 231);
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
@@ -15,15 +22,21 @@ html{
 }
 
 main{
-  height: 100vh;
+  /* position: relative; */
+  padding-top: var(--header-height);
   width: 100vw;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--second-color);
+  /* top: 80px; */
+
 }
 
 header{
+  height: var(--header-height);
   position: fixed;
   top: 0;
   width: 100vw;
+  background-color: rgba(255, 255, 255, 0.753);
+  backdrop-filter: blur(8px);
 }
 
 nav{
@@ -32,50 +45,210 @@ nav{
   justify-content: space-between;
 }
 
-nav .search-bar{
-  display: flex;
-  align-items: center;
-}
-
-nav .search-bar input[type='text']{
-  height: 2.2rem;
-  width: 30vw;
-  outline: none;
-  border-radius: 20px 0 0 20px;
-  padding: 10px;
-  border: 2px solid black;
-  border-right: none;
-}
-
-nav .search-bar button{
-  cursor: pointer;
-  height: 2.2rem;
-  width: 2.5rem;
-  border-radius: 0 20px 20px 0;
-  border: 2px solid black;
-  border-left: none;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
 #logo{
   font-family: 'poppins';
   font-weight: 700;
   font-size: 2rem;
 }
 
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav-links a{
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.nav-links:last-child{
+  margin-right: 0;
+}
+
+.login-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.login-btn:hover{
+  background-color: var(--second-color);
+  color: var(--primary-color) !important;
+  box-shadow: 0 0 4px 0px black;
+}
+
+.nav-links .login-btn{
+  color: var(--second-color);
+}
+
+/* HERO SECTION STARTS HERE */
+
+.hero{
+  height: calc(100vh - var(--header-height));
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  background-color: var(--second-color);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.hero .hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.hero-text h1{
+  font-size: 3.2rem;
+  font-weight: 800;
+
+}
+
+.hero-text h1 span{
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+
+.hero-text p{
+  margin-top: 10px;
+  width: 550px;
+  text-align: center;
+}
+
+.searchbar-cont{
+  display: flex;
+  border: 2px solid black;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.searchbar-cont input{
+  width: 500px;
+  border: none;
+  outline: none;
+}
+
+.searchbar-cont button{
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+.searchbar-cont input, .searchbar-cont button{
+  height: 40px;
+  padding: 10px;
+}
+
+/* FOOTER CODE STARTS HERE */
+
 footer{
   display: flex;
-  background-color: #dfdfdf;
+  flex-direction: column;
+  background-color: var(--primary-color);
   width: 100vw;
 }
 
-.netlify{
-  margin-left: 10px;
-  margin-top: 10px;
-  justify-self: flex-end;
+.footer-links-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+
 }
+
+.footer-links-sec{
+  display: flex;
+  flex-direction: column;
+  color: var(--second-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links-sec h4{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-links-sec ul{
+  list-style: none;
+}
+
+.footer-links-sec ul li a{
+  color: var(--second-color);
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.netlify{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--second-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+.netlify a{
+  color: var(--second-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.netlify img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.social-links{
+  align-items: center;
+}
+
+.social-links ul li a i.fab{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+
+}
+
+.copyright{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p{
+  text-align: center;
+  font-weight: 200;
+} 

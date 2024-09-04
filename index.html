@@ -6,30 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/CSS">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vite App</title>
+    <title>N8work</title>
   </head>
   <body>
     <div id="app">
       <header>
         <nav>
           <div id="logo"><i class="fa-solid fa-code-branch"></i> N8work</div>
-          <div class="search-bar">
+          <!-- <div class="search-bar">
             <input type="text" placeholder="Search..." id="search-field">
             <button type="submit" id="search-button"><i class="fa-solid fa-search"></i></button>
+          </div> -->
+          <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Docs</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Help</a>
+            <a href="#" class="nav-link login-btn">Login</a>
+
           </div>
         </nav>
       </header>
       <main>
 
+        <div class="hero">
+          <div class="hero-text">
+            <h1>GET <span>THE MOST</span> OUT OF</h1>
+            <h1>YOUR <span>RESEARCH</span></h1>
+            <p>An <b>Open-Source</b> Entity node network visulaizer for research that helps to show connection between different entities by nodes</p>
+          </div>
+          <div class="searchbar-cont">
+            <input type="text" id="searchbar" placeholder="Search..." />
+            <button type="submit" id="search-btn"><i class="fa-solid fa-search"></i></button>
+          </div>
+        </div>
+        
+        
 
       </main>
 
       <footer>
-        
-        <a href="https://www.netlify.com" class="netlify"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
+        <div class="footer-links-cont">
+          <div class="footer-links-sec">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Contributions</a></li>
+              <li><a href="#">Code of Conduct</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Licensing</a></li>
 
+            </ul>
+            
+          </div>
+          <div class="footer-links-sec">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+
+            </ul>
+          </div>
+          <div class="footer-links-sec social-links">
+            <h4>Social</h4>
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://github.com/TheFakeCreator/N8work?tab=coc-ov-file#contributor-covenant-code-of-conduct" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <div class="netlify"><a href="https://www.netlify.com/">This site is Powered by <img src="assets/logo-netlify-small-fullcolor-darkmode.png" alt="netlify"></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 N8work. All rights reserved.</p>
+
+        </div>
       </footer>
+
+      
     </div>
-    <script type="module" src="/main.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
