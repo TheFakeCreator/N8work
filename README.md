@@ -1,5 +1,11 @@
 # N8work
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)<br>
+<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a><br>
+
+
+
+
 **N8work** is an open-source web-based application that visualizes relationships between various entities in the form of a dynamic network. Each entity is represented as a bubble, and the size of the bubble indicates how closely it is related to the focused entity. The app allows users to explore complex networks and understand connections intuitively.
 
 ## Features
@@ -15,15 +21,16 @@
 
 ## Installation
 
-1. **Clone the repository:**
-   - git clone https://github.com/your-username/N8work.git
-   - cd N8work
+1. **Clone the repository:**<br>
+   `git clone https://github.com/your-username/N8work.git`<br>
+   `cd N8work`
 
-2. **Install Dependencies:**
-   - npm install
+2. **Install Dependencies:**<br>
+   `npm install`
 
-3. **Run The Application:**
-   - npm start
+3. **Run The Application:**<br>
+   `npm run dev`<br>
+   to run in the console `node main.js`
 
 4. **Usage:**
   - Navigate the Network: Click on nodes to focus on them, and explore how other entities are connected.
@@ -33,12 +40,17 @@
 5. **Contributing:**
    We welcome contributions! If you'd like to help improve N8work, please follow these steps:
 
-  - Fork the repository.
-   - Create a new branch (`git checkout -b feature/your-feature`).
-  - Commit your changes (`git commit -m 'Add some feature'`).
-  - Push to the branch (`git push origin feature/your-feature`).
-  - Open a Pull Request.
+   - Fork the repository.
+   - Create a new branch<br> `git checkout -b feature/your-feature`
+   - Commit your changes<br> `git commit -m 'Add some feature'`
+   - Push to the branch<br> `git push origin feature/your-feature`
+   - Open a Pull Request.
 
 5. **License:**
-   - This project is licensed under the MIT License - see the [LICENSE]() file for details.
+   - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+query structure example : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Elon+Musk&language=en&limit=30&continue=0&format=json&uselang=en&type=item
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+This site is powered by [Netlify](https://www.netlify.com).
 
