@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import "./ComponentStyles/Navbar.css";
 import Button from './Button';
 
@@ -11,11 +11,36 @@ const Navbar = () => {
           <a href="#"><i className="fa-solid fa-code-branch"></i> N8work</a>
         </div>
         <div className="nav-links">
-          <Link to='/' className="nav-link">Home</Link>
-          <Link to='/docs' className="nav-link">Docs</Link>
-          <Link to='/about' className="nav-link">About</Link>
-          <Link to='/contact' className="nav-link">Contact</Link>
-          <Link to='/help' className="nav-link">Help</Link>
+          <NavLink 
+            to='/' 
+            className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
+          >
+            Home
+          </NavLink>
+          <NavLink 
+            to='/docs' 
+            className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
+          >
+            Docs
+          </NavLink>
+          <NavLink 
+            to='/about' 
+            className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
+          >
+            About
+          </NavLink>
+          <NavLink 
+            to='/contact' 
+            className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
+          >
+            Contact
+          </NavLink>
+          <NavLink 
+            to='/help' 
+            className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
+          >
+            Help
+          </NavLink>
           <div className='login-links'>
             <Button text="Login" path="/login" />
             <Button text="Sign Up" path="/sign-up" />
