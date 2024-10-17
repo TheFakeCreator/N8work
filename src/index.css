@@ -17,4 +17,6 @@
   outline: none;
 }
 
-
+html{
+  overflow-x: hidden;
+}
