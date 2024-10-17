@@ -1,0 +1,16 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--second-color) !important;
+    cursor: pointer;
+}
+  
+  .btn:hover{
+    background-color: var(--second-color);
+    color: var(--primary-color) !important;
+    box-shadow: 0 0 4px 0px black;
+  }
