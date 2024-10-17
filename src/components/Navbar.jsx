@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ComponentStyles/Navbar.css";
+import Button from './Button';
 
 const Navbar = () => {
   return (
@@ -14,8 +15,10 @@ const Navbar = () => {
             <a href="#" className="nav-link">About</a>
             <a href="#" className="nav-link">Contact</a>
             <a href="#" className="nav-link">Help</a>
-            <a href="#" className="nav-link login-btn">Login</a>
-
+            <div className='login-links'>
+              <Button text="Login" path="/login"/>
+              <Button text="Sign Up" path="/sign-up"/>
+            </div>
           </div>
         </nav>
     </header>

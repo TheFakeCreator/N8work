@@ -44,22 +44,12 @@ nav{
   .nav-links:last-child{
     margin-right: 0;
   }
-  
-  .login-btn{
+
+  .login-links{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    background-color: var(--primary-color);
-    border-radius: 5px;
+    margin-right: 1.5rem;
   }
-  
-  .login-btn:hover{
-    background-color: var(--second-color);
-    color: var(--primary-color) !important;
-    box-shadow: 0 0 4px 0px black;
-  }
-  
-  .nav-links .login-btn{
-    color: var(--second-color);
+
+  .login-links a{
+    margin: .5rem;
   }
